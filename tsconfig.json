@@ -8,13 +8,13 @@
         "allowJs": true,
         "resolveJsonModule": true,
         "moduleDetection": "force",
-        // where it will start to search files in your code (if "./" it is where tsconfig.json is)
+        /* where it will start to search files in your code (if "./" it is where tsconfig.json is) */
         // "baseUrl": "./",
-        // alias for paths in your code
+        /* alias for paths in your code */
         "paths": {
          "@/*": ["./server/*"]
         },
-        // if true your code will not be transpiled to older js runtime
+        /* if true your code will not be transpiled to older js runtime */
         // "downlevelIteration": true,
         "allowImportingTsExtensions": false,
   
@@ -26,13 +26,14 @@
         // "allowSyntheticDefaultImports": true,
         /* check a return is for sure returned */
         "noImplicitReturns": true,
-        // prevent using wrong casing naming files for system with case sensitive (ex: linux)
+        /* prevent using wrong casing naming files for system with case sensitive (ex: linux) */
         "forceConsistentCasingInFileNames": true,
         "noImplicitAny": true,
         /* ensures that a case have a return / throw / break */
         "noFallthroughCasesInSwitch": true,
         "noUnusedParameters": true,
         "noUnusedLocals": true,
+        "exactOptionalPropertyTypes": true,
   
         /* if transpiling with TypeScript: */
         // "moduleResolution": "NodeNext",
