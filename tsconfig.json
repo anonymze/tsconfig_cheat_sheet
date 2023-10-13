@@ -70,6 +70,6 @@
       ] 
     },
     /* where all files ts to CHECK are located */
-    "include": ["./*.ts", "./server"],
+    "include": ["./*.ts", "./src"],
     "exclude": ["node_modules"]        
 }
