@@ -69,7 +69,13 @@
         "bun-types" // add Bun types global
       ] 
     },
+  
     /* where all files ts to CHECK are located */
     "include": ["./*.ts", "./src"],
-    "exclude": ["node_modules"]        
+    "exclude": ["node_modules"]
+
+    // Reference files (.d.ts ?) generated from other tsconfigs
+    //   "references": [
+    //     { "path": "./ref_to_another_tsconfig_file" }
+    // ]
 }
