@@ -17,6 +17,11 @@
       // if true your code will not be transpiled to older js runtime
       // "downlevelIteration": true,
       "allowImportingTsExtensions": false,
+      /* jsx tells typescript compiler to transpile JSX into Javascript that React can understand */
+      /* preserve: will keep jsx part to be consummed later (product .jsx files) / react: will emit a .js file who does not need a futur transformation */
+      /* react-native: same as preserve but files will have .js extension */
+      /* react-jsx: (relevant for React 17) avoid the necessity of importing React in every file where jsx is used (only for emit not checking) */
+      "jsx": "react",
 
       /* Strictness */
       "strict": true,
@@ -39,10 +44,6 @@
       // "module": "NodeNext",
       // "outDir": "dist",
       // "sourceMap": true,
-      /* preserve: will keep jsx part to be consummed later (product .jsx files) / react: will emit a .js file who does not need a futur transformation */
-      /* react-native: same as preserve but files will have .js extension */
-      /* react-jsx: (relevant for React 17) avoid the necessity of importing React in every file where jsx is used (only for emit not checking) */
-      // "jsx": "react",
       /* where the compiler will output the files after outdir name (base . if composite true) */
       // "rootDir": ".",
 
