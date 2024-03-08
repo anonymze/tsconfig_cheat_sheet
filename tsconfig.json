@@ -49,7 +49,7 @@
 
       /* if NOT transpiling with TypeScript: */      
       "moduleResolution": "Bundler",
-      "module": "ESNext",
+      "module": "preserve",
       "noEmit": true,
 
       /* if your code runs in the DOM: */
