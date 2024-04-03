@@ -40,15 +40,14 @@
       "noUnusedLocals": true,
 
       /* if transpiling with TypeScript: */
-      // "moduleResolution": "NodeNext",
-      // "module": "NodeNext",
+      // "module": "nodenext",
       // "outDir": "dist",
       // "sourceMap": true,
       /* where the compiler will output the files after outdir name (base . if composite true) */
       // "rootDir": ".",
 
-      /* if NOT transpiling with TypeScript: */      
-      "moduleResolution": "Bundler",
+      /* if NOT transpiling with TypeScript: */    
+      // moduleResolution is now implied by module
       "module": "preserve",
       "noEmit": true,
 
